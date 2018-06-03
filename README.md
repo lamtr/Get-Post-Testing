@@ -1,3 +1,3 @@
 # Get-Post-Testing
 
-# This is tesitng including for Spike Testing of SportSponsor 
+# This is testing including for Spike Testing of SportSponsor 
