@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- **********************************************************************************************
+** AUTHOR: 		   Trang Lam
+** DATE: 		     February 18, 2018
+** CODE: 		     From JavaScript, GET, POST
+** DESCRIPTION:	 for Get, AJAX and Forms
+** NOTE: 		     Uses Open Weather Channel API     			
+*************************************************************************************************** --> 
+  
+<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="script_get_weather.js"></script> <!-- -->
+
+</head>  
+<body>
+
+<form id="form" name="form">
+    <fieldset>
+    <legend>GET Weather:</legend>    
+    
+    <label>City:</label>
+    <input id="cityId" type="text">
+    
+    <label>Country's 2-Initials (e.g. US):</label>
+    <input id="countryId" type="text">
+    
+    <input id="submit" onclick="myFunction()" type="button" value="Submit" />
+    </fieldset>
+</form>
+
+<p>Description:</p><p id="demo1"></p>
+<p>Humidity:</p><p id="demo2"></p> 
+
+</body>
+</html>
